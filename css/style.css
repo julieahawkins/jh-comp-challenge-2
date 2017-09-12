@@ -15,18 +15,18 @@ header {
 
 .nav-icon,
 .slct-icon {
-	width: 1em;
-	height: 1em;
 	align-self: center;
+	height: 1em;
+	width: 1em;
 }
 
 select {
-	border: none;
 	background: none;
+	border: none;
 	color: #E55934;
+	font-size: 14pt;	
 	margin: 30px 30px 30px 0px;
 	width: 100px;
-	font-size: 14pt;	
 }
 
 select:focus {
@@ -48,14 +48,14 @@ nav {
 }
 
 button {
-	color: #A5A5A5;
-	font-size: 16pt;
-	width: 140px;
-    display: inline-flex;
-    justify-content: center;
     align-items: center;
     background: none;
     border: none;
+	color: #A5A5A5;
+    display: inline-flex;
+	font-size: 16pt;
+    justify-content: center;
+	width: 140px;
 }
 
 button:hover {
@@ -64,8 +64,8 @@ button:hover {
 
 .btn-icon {
 	height: 25px;
-	widows: 25px;
 	margin: 0px 15px 0px 0px;
+	widows: 25px;
 }
 
 .highlight {
@@ -73,18 +73,17 @@ button:hover {
 }
 
 h1 {
-	margin: 30px;
 	font-size: 32pt;
+	margin: 30px;
 }
 
 .title-icon {
-		width: 40px;
 		height: 40px;
+		width: 40px;
 	}
 
 main {
 	background: #CBC4C1;
-	/*padding: 0px 0px 0px 10px;*/
 }
 
 h2 {
@@ -96,19 +95,17 @@ h2 {
 
 section {
 	display: flex;
-	margin: 0px auto;
-	justify-content: center;
 	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px auto;
 }
 
 article {
+	background: #fff;
 	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 
 				0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background: #fff;
-	width: 23vw;
-	/*width: 333px;*/
-	/*height: 95vh;*/
 	margin: 8px;
+	width: 23vw;
 }
 
 .background-img1 {
@@ -216,28 +213,27 @@ article {
 }
 
 .img-container {
-	height: 178px;
 	display: flex;
+	height: 178px;
 	justify-content: space-between;
 }
 
 .play-icon {
-	/*color: #fff;*/
 	height: 7em;
     padding: 20px;
     width: 7em;
 }
 
 .share-counter {
-	border-radius: 50%;
+	align-items: center;
 	background: rgba(20,20,20, .5);
+	border-radius: 50%;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	height: 80px;
-    width: 80px;
     margin: 10px;
+    width: 80px;
 }
 
 .counter {
@@ -246,10 +242,6 @@ article {
 	margin: 13px 20px 0px;
 }
 
-/*.counter-value {
-
-}*/
-
 .text-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -257,30 +249,31 @@ article {
 }
 
 .episode-name {
-	font-size: 20pt;
+	font-size: 16pt;
+	height: 2em;
 	margin: 0px;
 }
 
 .podcast-name {
-	height: 2em;
 	font-size: 16pt;
+	height: 2em;
     margin: 0px;
 }
 
 .date {
-	font-size: 11pt;
 	font-family: 'Roboto', sans-serif;
+	font-size: 11pt;
 	margin: 0px;
 }
 
 .podcast-link {
-	height: 4em;
-	word-wrap: break-word;
-	margin: 14px 0px;
 	background-color: lightgrey;
-	text-decoration: none;
 	color: #A5A5A5;
+	height: 4em;
+	margin: 14px 0px;
 	padding: 12px;
+	text-decoration: none;
+	word-wrap: break-word;
 }
 
 .host {
@@ -302,8 +295,8 @@ article {
 
 .rating-value,
 .counter-value {
-	margin: 0px;
     font-size: 26pt;
+	margin: 0px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -330,15 +323,15 @@ article {
 	}
 
 	nav {
-		margin: 20px;
-    	width: 500px;
     	display: flex;
     	justify-content: space-around;
+		margin: 20px;
+    	width: 500px;
 	}
 
 	button {
-		width: 130px;
 		font-size: 16pt;
+		width: 130px;
 	}
 
 	.dropdown {
@@ -363,14 +356,9 @@ article {
 }
 
 @media screen and (max-width: 500px) {
-	header {
-		/*display: flex;*/
-		/*flex-direction: column-reverse;*/
-	}
-
 	nav {
-		flex-direction: column;
 		align-items: center;
+		flex-direction: column;
 		width: 100%;
 	}
 
@@ -401,8 +389,7 @@ article {
 	}
 
 	article {
-		width: 90vw;
-    	
+		width: 90vw;	
 	}
 
 }
