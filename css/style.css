@@ -1,0 +1,417 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Josefin Slab', serif;
+}
+
+header {
+	background: #2E282A;
+	color: #fff;
+}
+
+.dropdown {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-icon,
+.slct-icon {
+	width: 1em;
+	height: 1em;
+	align-self: center;
+}
+
+select {
+	border: none;
+	background: none;
+	color: #E55934;
+	margin: 30px 30px 30px 0px;
+	width: 100px;
+	font-size: 14pt;	
+}
+
+select:focus {
+	box-shadow: 0 0 5px #E55934;
+	outline: 1px solid #E55934;
+}
+
+.nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+}
+
+nav {
+	display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+button {
+	color: #A5A5A5;
+	font-size: 16pt;
+	width: 140px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+button:hover {
+	color: #fff;
+}
+
+.btn-icon {
+	height: 25px;
+	widows: 25px;
+	margin: 0px 15px 0px 0px;
+}
+
+.highlight {
+	color: #fff;
+}
+
+h1 {
+	margin: 30px;
+	font-size: 32pt;
+}
+
+.title-icon {
+		width: 40px;
+		height: 40px;
+	}
+
+main {
+	background: #CBC4C1;
+	/*padding: 0px 0px 0px 10px;*/
+}
+
+h2 {
+	color: #605F5E;
+	font-size: 32pt;
+	margin: 0px auto;
+	padding: 35px 25px;
+}
+
+section {
+	display: flex;
+	margin: 0px auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+article {
+	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 
+				0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: #fff;
+	width: 23vw;
+	/*width: 333px;*/
+	/*height: 95vh;*/
+	margin: 8px;
+}
+
+.background-img1 {
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../images/this-amer-life.png") no-repeat center;
+	background-size: cover;
+}
+
+.background-img1:hover {
+	background: url("../images/this-amer-life.png") no-repeat center;
+	background-size: cover;
+}
+
+.background-img2 {
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../images/joe-rogan-experience.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img2:hover {
+	background: url("../images/joe-rogan-experience.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img3 {
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)), 
+                     url("../images/duncan-trussell-family-hour.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img3:hover {
+	background: url("../images/duncan-trussell-family-hour.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img4 {
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../images/cbb-podcast.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img4:hover {
+	background: url("../images/cbb-podcast.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img5 {
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)), 
+                     url("../images/last-podcast.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img5:hover {
+	background: url("../images/last-podcast.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img6 {
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../images/radio-lab.png") no-repeat bottom;
+	background-size: cover;
+}
+
+.background-img6:hover {
+	background: url("../images/radio-lab.png") no-repeat bottom;
+	background-size: cover;
+}
+
+.background-img7 {
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../images/star-talk.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img7:hover {
+	background: url("../images/star-talk.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img8 {
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../images/doug-loves-movies.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.background-img8:hover {
+	background: url("../images/doug-loves-movies.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.img-container {
+	height: 178px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.play-icon {
+	/*color: #fff;*/
+	height: 7em;
+    padding: 20px;
+    width: 7em;
+}
+
+.share-counter {
+	border-radius: 50%;
+	background: rgba(20,20,20, .5);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.counter {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	margin: 13px 20px 0px;
+}
+
+/*.counter-value {
+
+}*/
+
+.text-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 20px;
+}
+
+.episode-name {
+	font-size: 20pt;
+	margin: 0px;
+}
+
+.podcast-name {
+	height: 2em;
+	font-size: 16pt;
+    margin: 0px;
+}
+
+.date {
+	font-size: 11pt;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+
+.podcast-link {
+	height: 4em;
+	word-wrap: break-word;
+	margin: 14px 0px;
+	background-color: lightgrey;
+	text-decoration: none;
+	color: #A5A5A5;
+	padding: 12px;
+}
+
+.host {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	margin: 0px;
+}
+
+
+.rating {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	margin: 12px 0px 0px;
+}
+
+.rating-value {
+	color: #E55934;
+}
+
+.rating-value,
+.counter-value {
+	margin: 0px;
+    font-size: 26pt;
+}
+
+@media screen and (max-width: 1000px) {
+	nav {
+		width: 475px;
+	}
+
+	article {
+		width: 30vw;
+	}
+
+	main {
+		padding: 0px 0px 0px 15px;
+	}
+
+	section {
+		justify-content: flex-start;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.nav {
+		flex-direction: column-reverse;
+	}
+
+	nav {
+		margin: 20px;
+    	width: 500px;
+    	display: flex;
+    	justify-content: space-around;
+	}
+
+	button {
+		width: 130px;
+		font-size: 16pt;
+	}
+
+	.dropdown {
+		justify-content: flex-start;
+	}
+
+	select {
+		margin: 25px 0px 0px;
+	}
+
+	.slct-icon {
+    	margin: 23px 0px 0px 15px
+	}
+
+	h1 {
+		margin: 0px auto;
+	}
+
+	article {
+		width: 45vw;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	header {
+		/*display: flex;*/
+		/*flex-direction: column-reverse;*/
+	}
+
+	nav {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	button {
+		height: 40px;
+		margin: 3px auto;
+		width: 100%;
+	}
+
+	.highlight {
+		background: #E55934;
+	}
+
+	.browse-btn {
+		background: #503B31;
+	}
+
+	.share-btn {
+		background: #6F5E56;;
+	}
+
+	main {
+		padding: 10px;
+	}
+
+	h2 {
+		display: none;
+	}
+
+	article {
+		width: 90vw;
+    	
+	}
+
+}
+
+
+
+
+
+
+
+
+
